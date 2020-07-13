@@ -3,6 +3,12 @@ This is a module to easily decentralise application. Not working yet.
 
 To use this module :
 
-npm install jskernel
+npm install js-kernel-os --save
+
+var kernel = require('js-kernel-os');
+
+kernel.addApp("myDb");
+kernel.myDb.put("myString", "hello");
+
 
 
