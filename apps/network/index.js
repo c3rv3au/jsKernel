@@ -220,7 +220,7 @@ var start = function () {
     });
 
     var listening_func = function (list_port) {
-        kernel.debug.log('networl','OS listening on port ' + list_port);
+        kernel.debug.log('network','OS listening on port ' + list_port);
     }
       
     server.listen(list_port, listening_func(list_port));
