@@ -1,5 +1,5 @@
 {
-  "name": "jskernel",
+  "name": "js-kernel-os",
   "version": "0.1.1",
   "description": "P2P app for distributed app over javascript.",
   "main": "index.js",
